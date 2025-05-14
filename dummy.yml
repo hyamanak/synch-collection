@@ -1,6 +1,6 @@
 ---
 - name: intentionally fail
+  hosts: all
   tasks:
     - name: aa
-      bad: 
-        msgs: bad bad bad
+      bad:
