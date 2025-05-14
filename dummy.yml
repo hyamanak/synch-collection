@@ -1,0 +1,6 @@
+---
+- name: intentionally fail
+  tasks:
+    - name: aa
+      bad: 
+        msgs: bad bad bad
